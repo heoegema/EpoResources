@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Income Tax">
+    <meta name="author" content="Holly Oegema">
+
+    <title>Epo Resources</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+
+</head>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+   <script>	
+ 
+      function init_map() {
+		var var_location = new google.maps.LatLng(43.900138, -78.759537);
+ 
+        var var_mapoptions = {
+          center: var_location,
+          zoom: 16
+        };
+ 
+		var var_marker = new google.maps.Marker({
+			position: var_location,
+            map: var_map,
+			title:"Epo Resources"});
+ 
+        var var_map = new google.maps.Map(document.getElementById("map-container"),
+            var_mapoptions);
+ 
+		var_marker.setMap(var_map);	
+ 
+      }
+ 
+      google.maps.event.addDomListener(window, 'load', init_map);
+ 
+    </script>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+               
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        
+        
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Epo Resources</h1>
+                    <h2>Income Tax Services</h2>
+                    <h3>Your Friendly Neighbourhood Tax Man.</h3>
+                    <h4>Serving Durham Region for over 30 years.</h4>
+                </div>
+                 
+         
+                    <a href="#about" class="page-scroll btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+   <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Why Epo Resources?</h2>
+                    <h3 class="section-subheading text-muted">Ed is born and raised in Bowmanville and has been preparing taxes from his home office in teh Durham region for over 30 years. Personal and home based business taxes only. Office is open Feb 15th-May 4th or by appointment. Office is also wheelchair accessible. Complete with a secure 24 hour drop box.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="glyphicon glyphicon-menu-left"></span>
+                    <img src="img/tax.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <span class="glyphicon glyphicon-menu-right"></span>
+                    </span>
+                    
+                                  
+                    <h4 class="service-heading"></span>Fast</h4>
+                    
+                <p class="text-muted"><span class="glyphicon glyphicon-menu-right"></span>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="glyphicon glyphicon-menu-left"></span>
+                    <img src="img/tax.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <span class="glyphicon glyphicon-menu-right"></span>
+                    </span>
+                    <h4 class="service-heading">Friendly</h4>
+                    <p class="text-muted"><span class="glyphicon glyphicon-ok"></span>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="glyphicon glyphicon-menu-left"></span>
+                    <img src="img/tax.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <span class="glyphicon glyphicon-menu-right"></span>
+                    </span>
+                    <h4 class="service-heading">E-File</span></h4>
+       <p class="text-muted"><span class="glyphicon glyphicon-send"></span>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Services</h1>
+                    <h3 class="section-subheading text-muted">At Epo Resources we are dedicated to providing affordable rates for both individuals and small home based businesses. </h3>
+                    <div class="rates">
+    <img src="img/tax.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+    <h3>Personal Tax</h3>
+    <p>$45 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+
+</p>
+                    </div>
+                      <div class="rates">
+    <img src="img/tax.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+    <h3>Small Business</h3>
+    <p>$85+ "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+
+</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Contact Section</h1>
+                     <div class="container">
+  <div class="row">
+      <div id="map-outer" class="col-md-12">
+          <div id="address" class="col-md-4">
+            <h2>Our Location</h2>
+            <address>
+            <strong>Epo Resources</strong><br>
+                1869 Bloor ST E<br>
+                L1C 3K3<br>
+                Bowmanville<br>
+                Ontario<br> 
+                <abbr>Phone: </abbr>905-435-1170
+                
+           </address>
+              
+            <p>Email: ed@eporesources.com</p>
+            
+              
+              
+              
+          </div>
+          
+        <div id="map-container" class="col-md-8"></div>
+      </div><!-- /map-outer -->
+      
+    
+  </div> <!-- /row -->
+ 
+ 
+</div><!-- /container -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer> 
+    Copyright © Epo Resources 2016
+    
+    
+    
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    
+    
+</body>
+
+</html>
