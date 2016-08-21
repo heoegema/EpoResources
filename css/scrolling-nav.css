@@ -12,11 +12,13 @@ html {
 
 @media(min-width:767px) {
     .navbar {
-        background: #000000;
+        background: black;
         padding: 10px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
+       
+        
     }
 
     .top-nav-collapse {
@@ -26,42 +28,53 @@ html {
 }
 
 
-
-
-
 div #header img {
  width:; /* the width of the logo image */
  height:; /* the height of the logo image */
  margin:0 auto;
 }
 .intro-section {
-    height: 80%;
-    padding-top: 150px;
+    height: 100%;
+    padding-top: 270px;
     text-align: center;
-  
-    background-image:url(../img/tax.jpg);
+    color: white;
+    
+    background-image:url(../img/sign7.jpg);
 }
 .intro-section h1 { 
-    
-    
+    padding-left: 60%;
+    font-size: 60px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
     
 } 
 
 .intro-section h2 { 
-    
-    
+    font-size: 50px;
+    padding-left: 60%;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
 } 
 
 .intro-section h3 { 
-    
-    
+   
+    padding-left: 60%;
 } 
 
 .intro-section h4 { 
+    padding-left: 60%;
     font-family: arial;
+    font-size: 20px;
+
 } 
 
 
+.btn{ 
+    background-color: black;
+    font-size: 20px;
+    color: silver;
+    margin-left: 60%;
+} 
 
 .about-section {
     height: 100%;
@@ -87,7 +100,9 @@ div #header img {
     align-content: center;
 }
 
-
+.ratesDescription { 
+    font-size: 20px;
+} 
 .rates img {
     margin-right: 15px;
     float: right;
