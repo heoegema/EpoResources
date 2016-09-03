@@ -78,22 +78,25 @@ div #header img {
 
 .about-section {
     height: 100%;
-    padding-top: 100px;
+    padding-top: 5%;
     text-align: center;
     background: #eee;
 }
 
 .services-section {
+    positive: relative;
     height: 100%;
-    padding-top: 100px;
+    padding-top: 5%;
     text-align: center;
     background: #fff;
+   
 }
 
 .rates {
+    position: relative;
     width: 100%;
     padding: 20px;
-    margin-top: 10px;
+    margin-top: 5%;
     
     overflow: hidden;
     text-align: left;
@@ -110,7 +113,7 @@ div #header img {
 
 .contact-section {
     height: 100%;
-    padding-top: 100px;
+    padding-top: 5%;
     text-align: center;
     background: #eee;
 }
